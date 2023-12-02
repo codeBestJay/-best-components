@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "bestComps",
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationDir": "bestComps",
+    "emitDeclarationOnly": true,
+    "moduleResolution": "Node"
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "build",
+    "node_modules",
+    "src/stories"
+  ]
+}

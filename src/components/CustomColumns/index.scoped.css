@@ -1,0 +1,16 @@
+.modal {
+  .ant-checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+
+    .ant-checkbox-group-item {
+      width: 25%;
+      margin: 0 0 16px;
+    }
+  }
+
+  .custom-label-hidden {
+    display: none;
+  }
+}

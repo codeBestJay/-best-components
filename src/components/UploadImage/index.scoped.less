@@ -1,0 +1,45 @@
+.expo-upload-container {
+  display: flex;
+  max-width: 500px;
+  float: left;
+  // padding: 16px;
+  // background-color: rgba(17, 179, 155, 0.23);
+
+  .expo-upload-area {
+    width: 120px;
+  }
+
+  .expo-upload-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 100px;
+    border: 1px dashed #f0f0f0;
+
+    // &:hover {
+    //   border-color: #7a87ef;
+    // }
+  }
+
+  .expo-upload-tips {
+    margin-left: 16px;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  :global {
+    .ant-upload-picture-card-wrapper {
+      .ant-upload-select-picture-card {
+        margin: 0;
+      }
+    }
+
+    .ant-image {
+      display: none;
+    }
+  }
+}
